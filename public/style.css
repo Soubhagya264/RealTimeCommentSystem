@@ -1,0 +1,19 @@
+body {
+    background: whitesmoke;
+    -webkit-font-smoothing: antialiased;
+    font-family: sans-serif;
+}
+
+.comment_box {
+    list-style-type: None;
+    padding-left: 0;
+
+}
+
+.comment_box .comment h6 {
+    font-weight: 800;
+}
+
+p {
+    font-size: 16px;
+}

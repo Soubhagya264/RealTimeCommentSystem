@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RealTimeCommentSystem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js">  
+    </script>
+    <script src="/socket.io/socket.io.js"></script>  
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h2>Real Time Comment Application</h2>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur autem neque asperiores, nobis
+                recusandae aut ipsum corporis quod esse delectus illum nisi, officiis reiciendis! Eos rerum consequatur
+                ullam atque illum.
+                Pariatur, exercitationem fugit autem fuga eaque nobis voluptas neque omnis fugiat maxime doloremque
+                illo. Cum officia magnam assumenda ea quidem temporibus commodi adipisci necessitatibus, quaerat quae ad
+                earum iste dignissimos.
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12">
+                <div class="border-bottom pd-12">
+                    Comments
+                </div>
+                <div class="col-md-12">
+                    <div class="form-group">
+                        <label for="">Write a comment</label>
+                        <textarea id="textarea" class="form-control" rows="5"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12 mt-4">
+                    <button class="btn btn-primary mb-3  submitButton">Post a comment</button>
+                </div>
+                <div class="col-md-12">
+                    <div class="typing text-success"></div>
+                    <div class="comment_box">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
